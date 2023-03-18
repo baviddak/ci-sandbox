@@ -17,7 +17,7 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
-      - run: apt-get update && apt-get install -y locales && apt-get install gcc-10-base -y && apt-get install python3 -y && apt-get install python3-pip -y
+      - run: sudo apt-get update && sudo apt-get install -y locales && sudo apt-get install gcc-10-base -y && sudo apt-get install python3 -y && sudo apt-get install python3-pip -y
       - run: chmod +x build.sh
       - run: ./build.sh
       - run: pip install pytest
