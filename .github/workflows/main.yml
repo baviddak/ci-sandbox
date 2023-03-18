@@ -1,0 +1,5 @@
+# Build the docker image 
+# Deploy and/or publish the docker image 
+# Inside of that docker image, do the following:
+# 1. build the .c source
+# 2. test with pytest
