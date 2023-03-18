@@ -2,6 +2,9 @@
 BIN=bin/
 SRC=src/
 
+# make the binaries dir
+mkdir ${BIN}
+
 # remove the old binaries
 rm -f ${BIN}*
 
